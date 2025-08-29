@@ -1,0 +1,73 @@
+{
+  "engine": "sqlserver",
+  "version": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nMicrosoft SQL Server 2022 (RTM-CU20-GDR) (KB5063814) - 16.0.4210.1 (X64) \n\tJul 11 2025 13:04:02 \n\tCopyright (C) 2022 Microsoft Corporation\n\tDeveloper Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>                                                                                                  \n\n(1 rows affected)",
+  "rows_loaded": {
+    "campaign_desc": 30,
+    "campaign_table": 7208,
+    "causal_data": 36786524,
+    "coupon": 124548,
+    "coupon_redempt": 2318,
+    "hh_demographic": 801,
+    "product": 92353,
+    "transaction_data": 2595732
+  },
+  "load_time_sec": 486.2103736400604,
+  "workload": {
+    "duration_sec": 60,
+    "concurrency": 8,
+    "read_ratio": 0.8
+  },
+  "bench_summary": {
+    "transactions": 155971,
+    "errors": 0,
+    "elapsed_sec": 59.99884390830994,
+    "throughput_tps": 2599.566755625399,
+    "p95_latency_ms": 3.312099986942485,
+    "cpu_mem_summary": {
+      "avg_cpu_percent": 251.5090476190476,
+      "avg_mem_percent": 45.79857142857143,
+      "p95_cpu_percent": 256.1,
+      "p95_mem_percent": 45.81,
+      "num_samples": 21
+    }
+  },
+  "storage": {
+    "database_bytes": 2902458368,
+    "tables": [
+      {
+        "table": "causal_data",
+        "bytes": 1603215360
+      },
+      {
+        "table": "transaction_data",
+        "bytes": 279846912
+      },
+      {
+        "table": "product",
+        "bytes": 8790016
+      },
+      {
+        "table": "coupon",
+        "bytes": 4399104
+      },
+      {
+        "table": "campaign_table",
+        "bytes": 270336
+      },
+      {
+        "table": "coupon_redempt",
+        "bytes": 139264
+      },
+      {
+        "table": "hh_demographic",
+        "bytes": 73728
+      },
+      {
+        "table": "campaign_desc",
+        "bytes": 73728
+      }
+    ]
+  },
+  "admin_time_sec": 486.2103736400604,
+  "timestamp": "2025-08-29T02:45:40.753194Z"
+}

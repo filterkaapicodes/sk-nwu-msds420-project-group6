@@ -1,0 +1,72 @@
+{
+  "engine": "postgresql",
+  "version": "16.10 (Debian 16.10-1.pgdg13+1)",
+  "rows_loaded": {
+    "campaign_desc": 30,
+    "campaign_table": 7208,
+    "causal_data": 36786524,
+    "coupon": 124548,
+    "coupon_redempt": 2318,
+    "hh_demographic": 801,
+    "product": 92353,
+    "transaction_data": 2595732
+  },
+  "load_time_sec": 644.2611083984375,
+  "workload": {
+    "duration_sec": 60,
+    "concurrency": 8,
+    "read_ratio": 0.8
+  },
+  "bench_summary": {
+    "transactions": 172258,
+    "errors": 0,
+    "elapsed_sec": 61.97706627845764,
+    "throughput_tps": 2779.3829289379332,
+    "p95_latency_ms": 3.173099976265803,
+    "cpu_mem_summary": {
+      "avg_cpu_percent": null,
+      "avg_mem_percent": null,
+      "p95_cpu_percent": null,
+      "p95_mem_percent": null
+    }
+  },
+  "storage": {
+    "database_bytes": 2568770019,
+    "tables": [
+      {
+        "table": "causal_data",
+        "bytes": 2216501248
+      },
+      {
+        "table": "transaction_data",
+        "bytes": 327270400
+      },
+      {
+        "table": "product",
+        "bytes": 9814016
+      },
+      {
+        "table": "coupon",
+        "bytes": 6537216
+      },
+      {
+        "table": "campaign_table",
+        "bytes": 417792
+      },
+      {
+        "table": "coupon_redempt",
+        "bytes": 180224
+      },
+      {
+        "table": "hh_demographic",
+        "bytes": 106496
+      },
+      {
+        "table": "campaign_desc",
+        "bytes": 16384
+      }
+    ]
+  },
+  "admin_time_sec": 644.2611083984375,
+  "timestamp": "2025-08-29T01:50:15.498261Z"
+}
