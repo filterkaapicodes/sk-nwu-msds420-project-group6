@@ -1,0 +1,13 @@
+assignment_task,design,ms,rowcount
+campaign_impact,ck,10331.74,2
+campaign_impact,sk,10173.37,2
+demo_influence,ck,3142.98,10
+demo_influence,sk,3533.58,10
+growth_categories,ck,7263.51,10
+growth_categories,sk,6396.42,10
+spend_trends,ck,2411.49,0
+spend_trends,sk,2453.49,0
+insert_throughput,ck,20808.66,1423952
+insert_throughput,sk,35699.36,1423952
+delete_window,ck,126.25,208
+delete_window,sk,129.43,208
